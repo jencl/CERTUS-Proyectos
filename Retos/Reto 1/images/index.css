@@ -1,0 +1,9 @@
+*{
+        border: solid rgb(26, 161, 223);
+        width: 600px;
+        height: 600px;
+        font-size: 200px;
+        border-radius: 25%;
+        margin: 50px;
+        padding: 10px
+}
