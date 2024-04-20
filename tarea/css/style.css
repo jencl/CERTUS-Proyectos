@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  background-color:  hsl(217, 54%, 11%);
+}
+
+body{
+    font-family: "Oufit",sans-serif;
+}
+.equilibrium-container {
+    max-width: 300px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 20px solid hsl(217, 54%, 11%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsl(216, 50%, 16%);
+}
+  .image-equilibrium{
+    border-radius: 10px;
+    width: 300px;
+    
+  }
+  
+  .tittle{
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+  }
+
+  
+  .price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .description{
+    color: hsl(215, 32%, 27%);
+    margin-top: 20px;
+    margin-bottom:25px ;
+  }
+
+  .price-container span {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: bold;
+  }
+ 
+  .price-container span:last-child {
+    color: #666; 
+  }
+.image-avatar{
+    border-radius: 10px;
+    border-color: white;
+    width: 30px;
+}
+  .descrip{
+color: white;  }
