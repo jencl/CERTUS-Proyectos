@@ -1,18 +1,18 @@
-function sumar(value5,value2){
-var result1 = value5+value2;
-return result1
+function addToDisplay(value) {
+  document.getElementById('display').value += value;
 }
-   
-function restar(value6,value2){
- var result2 = value6+value2;
- return result2
-   }
 
-function multiplicar(value8,value2){
- var result3 = value8+value2;
- return result3
-      }
-function dividir(value1,value2){
- var result4 = value1+value2;
- return result4
-   }
+function clearDisplay() {
+  document.getElementById('display').value = '';
+}
+
+function calculate() {
+  var displayValue = document.getElementById('display').value;
+  document.getElementById('display').value = eval(displayValue);
+}
+
+function operate(operation) {
+  var currentDisplayValue = document.getElementById('display').value;
+  addToDisplay(operation);
+  document.getElementById('display').value = currentDisplayValue;
+}
